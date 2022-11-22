@@ -1,0 +1,493 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+    .header{
+        width:100%;
+        height:150px;
+        background-color:white;
+    }
+        .logo{
+            width:220px;
+            height:100px;
+            background-color: white;
+            float:left;
+            margin:50px 0px 0px 130px;
+        }
+            #anh1{
+                width:220px;
+                height:100px;
+            }
+        .container{
+                width:720px;
+                height:150px;
+                background-color: white;
+                float:right;
+            }
+            #top{
+                width:720px;
+                height:30px;
+                background-color: white;
+                float:right;
+            }
+            .menu{
+            width:720px;
+            height:120px;
+            background-color: white;
+            float:right;
+            }
+                #navbar{
+                    list-style-type:none;
+                    margin:0px;
+                    padding:0px;
+                }
+
+                #navbar >li{
+                    width:96px;
+                    height:120px;
+                    background-color:white; 
+                    line-height:120px; 
+                    text-align: center; 
+                    float:left;
+                    margin-right:10px;
+                    font-family: Arial;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+
+                #navbar li:hover >a{
+                    color: burlywood;
+                 }
+                #navbar >li a{
+                    text-decoration: none;
+                    display: block;
+                    color:gray
+                }
+    .conten{
+        width:100%;
+        height:3150px;
+        background-color: white;
+    }
+        .conten1{
+            width:100%;
+            height:350px;
+            background-color:white;
+        }
+            #img{
+                width:100%;
+                height:350px;
+            }
+        .conten2{
+            width:100%;
+            height:350px;
+            background-color:#E9E2D5;
+        }
+            .conten2left{
+                width:750px;
+                height:350px;
+                background-color: #E9E2D5;
+                float:left;
+                color: #874B23;
+            }
+                #nd1{
+                    font-family: arial;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    margin-left: 100px;
+                }
+
+                #nd2{
+                    font-family: arial;
+                    font-size: 18px;
+                    margin: 0px 30px 0px 100px;
+                    text-rendering: optimizeSpeed;
+                }
+            .conten2right{
+                width:450px;
+                height:280px;
+                background-color: white;
+                float:right;
+                margin: 20px 100px 50px 0px;
+            }
+                #anh3{
+                    width:100%;
+                    height:280px;
+                }
+
+        .conten3{
+            width:100%;
+            height:300px;
+            background-color: white;
+            position:relative;
+            color:#874B23;
+        }
+            .conten3left{
+                width:50%;
+                height:230px;
+                background-color: white;
+                position: absolute;
+                top:20px;
+                bottom: 50px;
+                float: left;
+            }
+                .left{
+                    width:50%;
+                    height:230px;
+                    background-color: white;
+                    float:left;
+                }
+                .anh4{
+                    width:100%;
+                    height:230px;
+                }
+                .right{
+                    width:300px;
+                    height:230px;
+                    background-color: white;
+                    float:right;
+                }
+                    .right_top{
+                        font-family: arial;
+                        font-size: 25px;
+                    }
+                    .right_bottom{
+                        font-family: arial;
+                        font-size: 17px;
+                    }
+                    .right_div{
+                        font-family: arial;
+                        font-size: 20px;
+                        width:150px;
+                        height:50px;
+                        background-color:#A0522D;
+                        line-height: 50px;
+                        color: white;
+                        text-align: center;
+                    }
+                        .a{
+                                display:block; 
+                                text-decoration: none; 
+                                color:white;
+                             }
+                             .a:hover{
+                                background-color:#8B4513;
+                             }
+            
+            .conten3right{
+                background-color: white;
+                width:50%;
+                height:230px;
+                float: right;
+                margin: 20px 0px 50px 0px;
+            }
+
+        .conten4{
+            width:100%;
+            height:150px;
+            background-color:#E9E2D5;
+            color: #874B23;
+        }
+            #nd1conten4{
+                font-size: 20px;
+                font-family: arial;
+                font-style: italic;
+                text-align: center;
+                margin: 0px;
+            }
+            #nd2conten4{
+                font-size: 17px;
+                font-family: arial;
+                font-style: italic;
+                text-align: center;
+                margin: 0px;
+            }
+        .conten5{
+            width:100%;
+            height:950px;
+            background-color: white;
+        }
+            .conten51{
+                width:100%;
+                height:100px;
+                background-color: white;
+                position: relative;
+            }
+                #divleft{
+                    width:400px;
+                    height:2px;
+                    background-color: #E9E2D5;
+                    position: absolute;
+                    left:130px;
+                    top:49px;
+                    bottom: 49px;
+                }
+                #divcenter{
+                    width:300px;
+                    height:100px;
+                    background-color: white;
+                    position: absolute;
+                    left:530px;
+                    right:500px;
+                    font-family: arial;
+                    font-size: 25px;
+                    text-align: center;
+                    line-height: 100px;
+                    text-transform: uppercase;
+                    color: #874B23;
+                }
+                #divright{
+                    width:400px;
+                    height:2px;
+                    background-color:#E9E2D5;
+                    position: absolute;
+                    right:120px;
+                    top:49px;
+                    bottom: 49px;
+                }
+            .conten52{
+                width:100%;
+                height:600px;
+                background-color:white;
+            }
+                .conten52 .container{
+                    width:1100px;
+                    height:600px;
+                    margin:0px 120px 0px 100px;
+                    background-color:white;
+                }
+                    .conten52top{
+                        width:1100px;
+                        height:290px;
+                        background-color: white;
+                        margin-bottom: 20px;
+                    }
+                        .div1{
+                            width:263px;
+                            height:288px;
+                            background-color: white;
+                            margin-right: 10px;
+                            float: left;
+                            border: solid 1px #E9E2D5;
+                           
+                        }
+                            .div1top{
+                                width:265px;
+                                height:220px;
+                            }
+                                .anh6{
+                                    width:265px;
+                                    height:220px;
+                                }
+                            .div1bottom{
+                                width:265px;
+                                height:70px;
+                                background-color: white;
+                            }
+                                .nd1div1bottom{
+                                    margin: 0px;
+                                    text-align: center;
+                                    font-family: arial;
+                                }
+                                    .a1{
+                                        text-decoration: none;
+                                        color: #874B23;
+                                    }
+                                .nd2div1bottom{
+                                    margin-top: 5px;
+                                    text-align: center;
+                                    font-family: arial;
+                                    color: red;
+                                    font-weight: bold;
+                                }
+                    .conten52bottom{
+                        width:1100px;
+                        height:290px;
+                        background-color: white;
+
+                    }
+            .conten53{
+                width:100%;
+                height:100px;
+                background-color: white;
+                position: relative;
+            }
+                #divconten53{
+                    width:120px;
+                    height:30px;
+                    text-transform: uppercase;
+                    background-color: #DEB887;
+                    text-align: center;
+                    line-height: 30px;
+                    position: absolute;
+                    top:20px;
+                    left:590px;
+                    right:590px;
+                    border-radius: 15px;
+                }
+                    #a2{
+                        text-decoration: none;
+                        color: white;
+                    }
+            .conten54{
+                width:100%;
+                height:150px;
+                background-color: white;
+            }
+                .conten54 .container{
+                    width:1100px;
+                    height:150px;
+                    background-color: white;
+                    margin:0px 120px 0px 100px;
+                }
+                    .ndconten54{
+                        width:250px;
+                        height:80px;
+                        background-color: white;
+                        margin:35px 25px 35px 0px;
+                        float: left;
+                    }
+                        .anh{
+                            width:50px;
+                            height:80px;
+                            background-color:white;
+                            float: left;
+                        }
+                            .anh14{
+                                width:50px;
+                                height:50px;
+                                background-color: white;
+                                margin:15px 20px 35px 0px
+                            }
+                        .p{
+                            width:180px;
+                            height:80px;
+                            background-color: white;
+                            float: right;
+                            font-family: arial;
+                        }
+                            .p1{
+                                text-align: center;
+                                font-size: 16px;
+                                color:#874B23
+                            }
+                            .p2{
+                                text-align: center;
+                                font-size: 13px;
+                                color:#334862
+                            }
+        .conten6{
+            width:100%;
+            height:500px;
+            background:black;
+        }
+                .ndconten6{
+                    margin-left:130px;
+                    float: left;
+                    font-family: arial;
+                    color: white;
+                }
+                
+        .conten7{
+            width:100%;
+            height:550px;
+            background-color: white;
+        }
+            .conten7bottom{
+                width:100%;
+                height:400px;
+                background-color: white;
+            }
+                .conten7bottom .container{
+                    width:1100px;
+                    height:400px;
+                    background-color: white;
+                    margin: 0px 120px 0px 100px;
+                }
+                    .div1conten7{
+                        width:345px;
+                        height:400px;
+                        background-color:white;
+                        margin-right: 30px;
+                        float:left;
+                        box-shadow: 1px 1px 1px 3px gainsboro;
+                    }
+                        .div1conten7top{
+                            width:345px;
+                            height:190px;
+                            background-color:white;
+                        }
+                            .anh18{
+                                width:345px;
+                                height:190px;
+                            }
+                        .aconten7{
+                            text-decoration: none;
+                        }
+                        .div1conten7center{
+                            width:345px;
+                            height:160px;
+                            background-color:white;
+                        }
+                            .nd1conten7{
+                                text-align: center;
+                                font-family: arial;
+                                font-size: 17px;
+                                margin-top: 0px;
+                                color:#874B23;
+                            }
+                            .nd2conten7{
+                                text-align: left;
+                                font-family: arial;
+                                font-size: 15px;
+                                padding-left:10px;
+                                color:#334862;
+                            }
+                        .div1conten7bottom{
+                            width:345px;
+                            height:50px;
+                            background-color:white;
+                            margin-right: 30px;
+                            position: relative;
+                        }
+                            .div1conten7bottom1{
+                                width:100px;
+                                height:30px;
+                                background-color:#DEB887;
+                                margin-right: 30px;
+                                position: absolute;
+                                text-decoration: none;
+                                color: white;
+                                text-align: center;
+                                line-height: 30px;
+                                left:120px;
+                                border-radius: 15px;
+                            }
+                                
+                    .div2conten7{
+                        width:345px;
+                        height:400px;
+                        background-color: aqua;
+                        float:right;
+                        box-shadow: 1px 1px 1px 3px gainsboro;
+                    }
+    .footer{
+        width:100%;
+        height:100px;
+        background-color: #E9E2D5;
+        font-family: arial;
+        }
+        .footer .container{
+            width:1100px;
+            height:100px;
+            background-color: #E9E2D5;
+            font-family: arial;
+            margin: 0px 120px 0px 130px;
+        }
+            #pfooter{
+                margin: 0px;
+                text-align: center;
+            }
+            #p1footer{
+                margin: 0px;
+                text-align: center;
+                }

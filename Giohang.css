@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    width:100%;
+    height:150px;
+    background-color: white;
+}
+    .logo{
+        width:220px;
+        height:100px;
+        background-color: white;
+        float:left;
+        margin:50px 0px 0px 130px;
+    }
+        #anh1{
+            width:220px;
+            height:100px;
+        }
+    .container{
+            width:720px;
+            height:150px;
+            background-color:white;
+            float:right;
+        }
+        #top{
+            width:720px;
+            height:30px;
+            background-color:white;
+            float:right;
+        }
+        .menu{
+        width:720px;
+        height:120px;
+        background-color: white;
+        float:right;
+        }
+            #navbar{
+                list-style-type:none;
+                margin:0px;
+                padding:0px;
+            }
+
+            #navbar >li{
+                width:96px;
+                height:120px;
+                background-color:white; 
+                line-height:120px; 
+                text-align: center; 
+                float:left;
+                margin-right:10px;
+                font-family: Arial;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+
+            #navbar li:hover >a{
+                color: burlywood;
+             }
+            #navbar >li a{
+                text-decoration: none;
+                display: block;
+                color:gray;
+            }
+.headerbottom{
+    width:1120px;
+    height: 2px;
+    background-color:#E9E2D5;
+    margin: 0px 80px 0px 130px;
+}
+    .conten{
+        width:100%;
+        height:700px;
+        background-color: white;
+        font-family: Arial;
+    }
+        
+   
+                .footer{
+                    width:100%;
+                    height:100px;
+                    background-color: darksalmon;
+                    font-family: arial;
+                }
+                    .footer .container{
+                        width:1100px;
+                        height:100px;
+                        background-color: white;
+                        font-family: arial;
+                        margin: 0px 120px 0px 130px;
+                    }
+                    
+                    
+                        #pfooter{
+                            margin: 0px;
+                            text-align: center;
+                        }
+                        #p1footer{
+                            margin: 0px;
+                            text-align: center;
+                        }
+                    
